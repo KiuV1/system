@@ -302,7 +302,7 @@ client.on('guildCreate', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("RED")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=400489866573512705&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=524591160736481292&permissions=8&scope=bot')
   .setDescription(`**
   New Server Add !KiuV..Bot ✅
 اسم السيرفر: ${guild.name}
@@ -314,7 +314,7 @@ client.on('guildDelete', guild => {
          const embed = new Discord.RichEmbed()
      .setColor("GOLD")
      .setTitle('Click Here To Add Bot .!')
-     .setURL('https://discordapp.com/oauth2/authorize?client_id=513707037507452957&permissions=8&scope=bot')
+     .setURL('https://discordapp.com/api/oauth2/authorize?client_id=524591160736481292&permissions=8&scope=bot')
   .setDescription(`**
   Server Kicked !KiuV..Bot :cry:
 اسم السيرفر: ${guild.name}
